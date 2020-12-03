@@ -1,0 +1,57 @@
+p, a, h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #2B2B2B;
+  
+}
+
+a:hover 
+{
+     color: #2B2B2B !important;
+     text-decoration:none !important; 
+     cursor:pointer !important;  
+}
+
+.middlenav a {
+  font-size: .95em !important;
+}
+
+.mynav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.mynav a {
+  display: block;
+  font-size: 1.25em;
+  color: black;
+  text-decoration: none;
+  padding: 1.875em 0.938em !important;
+}
+
+.target {
+  position: absolute;
+  border-bottom: 4px solid transparent;
+  z-index: -1;
+  transform: translateX(-3.750em);
+}
+
+.mynav a,
+.target {
+  transition: all .2s ease-in-out;
+}
+
+.navbar-light .navbar-brand {
+    color: #2B2B2B;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2B2B2B;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: black !important;
+}
+
+
